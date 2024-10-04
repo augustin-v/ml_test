@@ -1,0 +1,4 @@
+Flask==2.2.3
+xgboost==1.6.1
+numpy==1.23.5
+joblib==1.1.0
