@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import pandas as pd
 import joblib
 import numpy as np
-
+from flask_cors import CORS
 model = joblib.load('stark_chan_v2.pkl')
 
 app = Flask(__name__)
